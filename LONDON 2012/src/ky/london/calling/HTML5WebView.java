@@ -1,13 +1,9 @@
 package ky.london.calling;
-
-import com.example.test.R;
-
+import ky.london.calling.JavascriptInterfaceActivity
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,6 +15,8 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
+
+import com.example.test.R;
 
 public class HTML5WebView extends WebView {
 
